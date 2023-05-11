@@ -41,7 +41,7 @@ const questions = [
     validate: validateInput
 },
 {
-    type: "input",
+    type: "list",
     name: "licenses",
     message: "Please select the license applicable to your project:",
     choices: licenses,
