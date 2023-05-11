@@ -61,3 +61,17 @@ function renderLicenseLink(license) {
     }
     return link;
   }
+
+  // function that license section of the Readme
+
+  function renderLicenseSection(license) {
+    let licSection = ''
+  
+    if (license = 'N/A') {
+      licSection = '## License'
+      licSection += 'This program/application uses the ' + '[' + license + ']('+ renderLicenseLink(license) +') license.';
+    }
+  
+    return licSection;
+  
+  }
