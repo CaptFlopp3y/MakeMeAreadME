@@ -75,3 +75,60 @@ function renderLicenseLink(license) {
     return licSection;
   
   }
+
+  // function of the markdown
+
+  function generateMarkdown(data) {
+    for (const key in data){
+        if (!data[key]){
+            data[key] = 'N/A';
+        }
+    }
+  
+
+  // next is table of contents
+let tabOC =`
+* [Installation](#installation)
+* [Usage](#usage)
+* [Credits](#credits)
+`
+
+if (data.license !== "N/A"){
+  tabOC += `* [License](#license)`;
+}
+
+tabOC += `
+* [Tests](#tests)
+* [Questions](#questions)`;
+
+// now to build the whole template literal 
+
+return `
+# ${data.title} ${renderLicenseBadge(data.license)}
+
+## Description 
+${data.description}
+
+## Table of Contents
+${tabOC}
+
+## Installation 
+${data.installation}
+
+## Usage 
+${data.usage}
+
+## Credits 
+${data.credit}
+
+${renderLicenseSection(data.license)}
+
+## Tests 
+${data.test}
+
+## Questions 
+Find me at my GitHub: [${data.github}](https://github.com/${data.github}). 
+If you have any further questions, you can reach out here: ${data.email}.
+`;
+  }
+module.exports = generateMarkdown; 

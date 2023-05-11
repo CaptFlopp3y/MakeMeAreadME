@@ -1,7 +1,7 @@
 // TODO: Include packages needed for this application
 const fs = require('fs');
 const inquirer = require('inquirer');
-const generateMarkdown = require ('./outPut/generateMarkdown');
+const generateMarkdown = require ('./generateMarkdown');
 const licenses = ["Apache 2.0", "BSD 3-Clause", "GPL 3.0", "ISC", "MIT", "N/A"];
 
 // Make sure all text is entered. 
@@ -64,7 +64,7 @@ const questions = [
 // The function for the README file
 function writeToFile (data)
 {
-    const genFile = "./outPut/ReadMeGen"
+    const genFile = "./outPut/ReadMeGen.md"
     
     fs.writeFile(
         genFile, generateMarkdown(data), function(err){
