@@ -59,17 +59,31 @@ const questions = [
     message: "Good email to be reached at if anyone wants to contact you?",
     validate: validateInput
 },
+{
+    type: "input",
+    name: "usage",
+    message: "How will this project be used?",
+    validate: validateInput
+},
+{
+    type: "input",
+    name: "test",
+    message: "What test if any were used for this project",
+    validate: validateInput
+},
 ];
 
 // The function for the README file
 function writeToFile (data)
 {
     const genFile = "./outPut/ReadMeGen.md"
-    
-    fs.writeFile(
-        genFile, generateMarkdown(data), function(err){
-            err ? console.log(err) : console.log("GREAT! " + genFile + " created.")
-        });
+    fs.writeFileSync(genFile,generateMarkdown(data),{encoding:'utf8',flag:'w'}, function(err){
+                   err ? console.log(err) : console.log("GREAT! " + genFile + " created.")
+             })
+//     fs.writeFile(
+//         genFile, generateMarkdown(data),{}, function(err){
+//             err ? console.log(err) : console.log("GREAT! " + genFile + " created.")
+//         });
 }
 
 // Function top initialize the app 

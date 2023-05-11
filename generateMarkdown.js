@@ -67,10 +67,11 @@ function renderLicenseLink(license) {
     if (license != 'N/A') {
       licSection = '## License'
       licSection += 'This program/application uses the ' + '[' + license + ']('+ renderLicenseLink(license) +') license.';
+      console.log (license)
     }
-  
+    console.log (licSection)
     return licSection;
-  
+
   }
 
   // function of the markdown
@@ -90,7 +91,7 @@ let tabOC =`
 * [Credits](#credits)
 `
 
-if (data.license !== "N/A"){
+if (data.licenses !== "N/A"){
   tabOC += `* [License](#license)`;
 }
 
@@ -99,9 +100,8 @@ tabOC += `
 * [Questions](#questions)`;
 
 // now to build the whole template literal 
-
 return `
-# ${data.title} ${renderLicenseBadge(data.license)}
+# ${data.title} ${renderLicenseBadge(data.licenses)}
 
 ## Description 
 ${data.description}
@@ -118,7 +118,7 @@ ${data.usage}
 ## Credits 
 ${data.credit}
 
-${renderLicenseSection(data.license)}
+${renderLicenseSection(data.licenses)}
 
 ## Tests 
 ${data.test}

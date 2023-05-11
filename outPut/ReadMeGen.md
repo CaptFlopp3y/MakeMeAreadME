@@ -1,8 +1,8 @@
 
-# Test 
+# a [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)]
 
 ## Description 
-testing it out
+a
 
 ## Table of Contents
 
@@ -14,19 +14,19 @@ testing it out
 * [Questions](#questions)
 
 ## Installation 
-npm install
+a
 
 ## Usage 
-undefined
+a
 
 ## Credits 
-self made
+a
 
-## LicenseThis program/application uses the [N/A]() license.
+## LicenseThis program/application uses the [MIT](https://opensource.org/licenses/MIT) license.
 
 ## Tests 
-undefined
+a
 
 ## Questions 
-Find me at my GitHub: [CaptFlopp3y](https://github.com/CaptFlopp3y). 
-If you have any further questions, you can reach out here: barrancofabian@gmail.com.
+Find me at my GitHub: [a](https://github.com/a). 
+If you have any further questions, you can reach out here: a.
