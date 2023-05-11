@@ -64,7 +64,7 @@ function renderLicenseLink(license) {
   function renderLicenseSection(license) {
     let licSection = ''
   
-    if (license = 'N/A') {
+    if (license != 'N/A') {
       licSection = '## License'
       licSection += 'This program/application uses the ' + '[' + license + ']('+ renderLicenseLink(license) +') license.';
     }
