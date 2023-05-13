@@ -27,5 +27,29 @@ THEN this is added to the section of the README entitled Questions, with instruc
 WHEN I click on the links in the Table of Contents
 THEN I am taken to the corresponding section of the README
 ```
+## Table of Contents
+  * [Installation](#installation)
+  * [Usage](#usage)
+  * [Contributing](#contributing)
+  * [Tests](#tests)
+  * [Questions](#questions)
+  * [License](#license)
+
+  ## Installation
+  Node and inquire package must be installed to work correctly.
+
+  ## Usage
+  Command-line application creates README. Application will be used by entering the command "node index.js". Github username will be prompted along with other questions.
+
+  ## Tests
+  no testing instructions.
+  
+  # App Working Example
+Refer to the [Submission Guide Video](https://drive.google.com/file/d/19EgsaJNsbMzDOHrrNjy7ePFw2Lwhw4Pk/view) to view a live interaction.
+
 ## Sccreenshot of example 
 ![alt text](ReadmePic.jpg)
+
+## Questions
+* GitHub Username: CaptFlopp3y
+* Email: barrancofabian@gmail.com
