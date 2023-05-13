@@ -1,8 +1,8 @@
 
-# Professional README Generator [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)]
+# Making a self made readme [![License](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)]
 
 ## Description 
-To self make a README
+I want this to make my life easier and self make a Readme 
 
 ## Table of Contents
 
@@ -17,15 +17,15 @@ To self make a README
 npm install and npm start
 
 ## Usage 
-To make my life easier
+This project can be used for everytime I need to make a readme
 
 ## Credits 
-Made on my own
+Self made no collaborators this time.
 
-## LicenseThis program/application uses the [Apache 2.0](https://opensource.org/licenses/Apache-2.0) license.
+## LicenseThis program/application uses the [BSD 3-Clause](https://opensource.org/licenses/BSD-3-Clause) license.
 
 ## Tests 
-All test
+No test this time
 
 ## Questions 
 Find me at my GitHub: [CaptFlopp3y](https://github.com/CaptFlopp3y). 
