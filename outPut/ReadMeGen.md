@@ -1,8 +1,8 @@
 
-# a [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)]
+# Professional README Generator [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)]
 
 ## Description 
-a
+To self make a README
 
 ## Table of Contents
 
@@ -14,19 +14,19 @@ a
 * [Questions](#questions)
 
 ## Installation 
-a
+npm install and npm start
 
 ## Usage 
-a
+To make my life easier
 
 ## Credits 
-a
+Made on my own
 
-## LicenseThis program/application uses the [MIT](https://opensource.org/licenses/MIT) license.
+## LicenseThis program/application uses the [Apache 2.0](https://opensource.org/licenses/Apache-2.0) license.
 
 ## Tests 
-a
+All test
 
 ## Questions 
-Find me at my GitHub: [a](https://github.com/a). 
-If you have any further questions, you can reach out here: a.
+Find me at my GitHub: [CaptFlopp3y](https://github.com/CaptFlopp3y). 
+If you have any further questions, you can reach out here: barrancofabian@gmail.com.
